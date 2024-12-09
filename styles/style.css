@@ -1,0 +1,499 @@
+/* * {
+    outline: 1px solid black;
+  } */
+
+   body {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F8ffff;
+  }
+  .header {
+    padding-top: 30px;
+    margin-bottom: -9%;
+   }
+   
+   
+   .header__inner {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+  
+   .logo {
+    font-family: 'circular';
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 900;
+    color: #18191a;
+    z-index: 1;
+   }
+
+   .romb {
+    margin-left: -40%;
+   }
+   
+  
+   .menu__list {
+    display: flex;
+    list-style: none;
+   }
+   
+  
+   .menu__list-item {
+    margin-right: 20px;
+   }
+   
+   .menu__list_button1 {
+    width: 160px;
+    height: 60px;
+    top: 71px;
+    left: 1440px;
+    border-radius: 80px;
+    margin-right: 34px;
+    margin-left: 40px;
+    background-color: #FFFFFF;
+    color: #6C6C6C;
+    border: none;
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+   }
+
+   .menu__list_button1:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    transition: all 0.4s;
+   }
+
+   .menu__list_button2 {
+    width: 160px;
+    height: 60px;
+    top: 71px;
+    left: 1440px;
+    border-radius: 80px;
+    background-color: #ff9e0d;
+    color: #ffffff;
+    border: none;
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+   }
+
+   .menu__list_button2:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ff9e0d;
+    transition: all 0.4s;
+   }
+  
+   .menu__list-link {
+    font-family: 'circular';
+    padding: 10px 20px; 
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-weight: 110;
+   }
+   
+
+   .menu__list-link:hover {
+    color: #ff9e0d;
+   }
+
+  .middle {
+    overflow: hidden;
+    border-radius: 0px 0px 920px 920px / 0px 0px 250px 250px;
+    padding: 0px 70px 0 74px;
+    display: flex;
+    align-items: center;
+    gap: 94px;
+    background-color: #FFF2E1;
+    margin: 0px -250px 0px -250px;
+  }
+
+  .studying {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-left: 11%;
+  }
+
+  h1 {
+    width: 562px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-family: 'circular';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #2F327D;
+  }
+
+  .studying_color {
+    color: #F48C06;
+  }
+
+  .studying_title {
+    margin-bottom: 45px;
+    font-family: 'circular';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6b6969;
+    padding: 0px 51px 0px 0px;
+  }
+
+  .middle button {
+    width: 210px;
+    padding: 22px 10px;
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 19.81px;
+    border-radius: 37px;
+    border: none;
+    background-color: #F48C06;
+    color: #fffbf5;
+  }
+  .play_free {
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: -48px 0px 12px 320px;
+  }
+
+  .middle button:hover {
+    background-color: #fdb926;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+
+  .women_messanger {
+    background-image: url(/assets/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min\ 1.png);
+    width: 600px;
+    height: 902px;
+    background-position: center;
+    padding: 1px 84px 84px 84px;
+    transform: scale(0.9);
+    margin-top: 5%;
+    margin-bottom: -4%;
+  }
+
+  .assisted {
+    display: flex;
+    position: relative;
+    top: 33%;
+    right: 31%; 
+  }
+
+  .cong {
+    display: flex;
+    position: relative;
+    top: 41%;
+    left: 61%;
+  }
+
+  .user {
+    display: flex;
+    position: relative;
+    bottom: -45%;
+    right: 30%;
+  }
+
+  .icon {
+    display: flex;
+    position: relative;
+    bottom: 26%;
+    left: 89%;
+  }
+
+  .title_worldwide {
+    text-align: center;
+    font-family: 'circular';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 44.8px;
+    letter-spacing: 0.02em;
+    color: #696984;
+  }
+
+  .companies {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin: 55px 0px 55px 0px;
+  }
+
+  .cloud_software {
+    text-align: center;
+    font-family: 'circular';
+  }
+
+  .skilline_software {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 64.8px;
+    color: #2F327D;
+  }
+
+  .skilline_software_color {
+    color: #F48C06;
+  }
+
+  .cloud_software_title{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin: 0px 360px 0px 360px;
+    width: 50%;
+    color: #696984;
+  }
+
+  .software {
+    position: relative;
+  }
+
+  .nameplate {
+    padding: 0px 216px 0px 215px;
+    display: grid;
+    grid-template-columns: repeat(3, 289px);
+    column-gap: 71px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .card1 {
+    height: 305px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    box-shadow: 0px 5px 10px 0px #78757e80;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card1 .circle {
+    position: static;
+    width: 180px;
+    height: 180px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    margin: -76px 0px -15px 0px;
+    color: #2F327D;
+    font-family: 'circular';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.71px;
+    text-align: center;
+  }
+
+  .nameplate_card {
+    font-family: 'circular';
+    padding: 13px 24px 0px 24px;
+    margin: 31px 0px 20px 0px;
+    color: #696984;
+  }
+
+  .grid2 {
+    padding: 0px 63px 0px 63px;
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(2, 601px);
+    column-gap: 70px;
+    row-gap: 140px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .question {
+    text-align: center;
+  }
+
+  .what {
+    font-family: 'circular';
+    margin-top: 12%;
+    font-size: 44px;
+    color: #2F327D;
+  }
+
+  .what_color {
+    color: #F48C06;
+  }
+
+  .what_title {
+    font-family: 'circular';
+    max-width: 66%;
+    margin: 0% 0% 0% 17%;
+    font-size: 25px;
+    color: #696984;
+    line-height: 36px;
+  }
+
+  .slide1 {
+    font-family: 'circular';
+    margin-top: -40%;
+    font-size: 32px;
+    color: white;
+  }
+
+  .slide2 {
+    font-family: 'circular';
+    margin-top: -40%;
+    font-size: 32px;
+    color: white;
+  }
+
+  .button2 {
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    border-radius: 30px;
+    height: 64px;
+    width: 42%;
+    background-color: rgba(28, 28, 28, 0);
+    color: white;
+    border-color: white;
+  }
+
+  .button2:hover {
+    cursor: pointer;
+  }
+
+  .button3 {
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    border-radius: 30px;
+    height: 64px;
+    width: 42%;
+    background-color: rgba(28, 28, 28, 0);
+    color: white;
+    border-color: white;
+  }
+
+  .button3:hover {
+    cursor: pointer;
+  }
+
+  .grid_section2 {
+    text-align: center;
+  }
+
+  .grid_section3 {
+    text-align: left;
+  }
+
+  .ellips1 {
+    position: relative;
+    display: flex;
+    margin: -388px 0px 0px -30px;
+    z-index: -1;
+  }
+
+  .ellips2 {
+    position: relative;
+    display: flex;
+    z-index: -1;
+    left: 101%;
+    top: 38%;
+  }
+
+  .cloud_system {
+    font-family: 'circular';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 57.6px;
+    color: #F48C06;
+  }
+
+  .cloud_title {
+    font-family: 'circular';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38.2px;
+    letter-spacing: 0.02em;
+    color: #696984;
+  }
+
+  .cloud_color {
+    color: #2F327D;
+  }
+  
+  .more {
+    font-family: 'circular';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: left;
+    color: #696984;
+    text-decoration: underline;
+  }
+
+  .more:hover {
+    cursor: pointer;
+  }
+
+  .video {
+    position: relative;
+    left: 9%;
+    margin-bottom: -22%;
+    top: -315px;
+  }
+
+  .video:hover {
+    cursor: pointer;
+  }
+
+  .square1 {
+    margin: -93% -5% 72% -89%;
+    position: relative;
+    z-index: -1;
+  }
+
+  .square2 {
+    margin: -48% 20% 20% 84%;
+    z-index: -1;
+    position: relative;
+  }
+
+
+  .js_test {
+    font-family: 'circular';
+    text-align: center;
+    margin-top: 15%;
+    font-size: 45px;
+    color: #2F327D;
+  }
+
+  .js_name {
+    color: #F48C06;
+  }
+
+
+  #test {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'circular';
+    line-height: 42px;
+    color: #696984;
+  }
